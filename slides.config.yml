@@ -1,38 +1,10 @@
-title: From Image to Map
-description: Georeferencing the Van Berckenrode map of Amsterdam
+title: High-Rise Atlas
+description: The Berlage ProjectNL
 credits: CREDITS.md
-sources:
-  public_transport:
-    # From https://maps.amsterdam.nl/open_geodata/?k=648
-    type: geojson
-    url: https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=TRAMMETRO_LIJNEN_2026&THEMA=trammetro
-  historic_buildings:
-    # https://maps.amsterdam.nl/open_geodata/?k=118
-    type: geojson
-    url: https://maps.amsterdam.nl/open_geodata/geojson_lnglat.php?KAARTLAAG=HISTORISCHE_BEBOUWING&THEMA=archeologie
-
-# Global defaults: the final two slides enable their own overlays.
-layers:
-  - layer: public_transport-line
-    visibility: none
-  - layer: historic_buildings-point-circle
-    visibility: none
-  - id: historic-building-labels
-    type: symbol
-    source: historic_buildings
-    layout:
-      visibility: none
-      text-field: [get, Naam]
-      text-font: [Noto Sans Medium]
-      text-size: 14
-    paint:
-      text-color: '#34373d'
-      text-halo-color: '#ffffff'
-      text-halo-width: 2
 
 slideshows:
   - id: main
-    path: slideshows/main
+    path: slideshows/introduction
     start:
       hideBasemap: true
       warpedMaps:
@@ -45,6 +17,12 @@ slideshows:
             options:
               applyMask: false
               transformationType: helmert
+  - id: district-1
+    path: slideshows/district-1
+  - id: district-2
+    path: slideshows/district-2
+  - id: district-3
+    path: slideshows/district-3
 
 # This key is for the template demo. When copying or forking this repository,
 # get your own key at https://protomaps.com/api and replace it below.
