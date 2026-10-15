@@ -1,0 +1,117 @@
+{
+  "id": "https://annotations.allmaps.org/images/dd95b5e7bca09363",
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/b60e21ecd87c96c7",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-15T12:37:54.086Z",
+      "modified": "2026-10-15T12:37:54.086Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://theberlage.github.io/high-rise-atlas/iiif/student-work/rotterdam-base-map",
+          "type": "ImageService3",
+          "height": 9934,
+          "width": 9934
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"9934\" height=\"9934\"><polygon points=\"238,237 237,9696 9697,9696 9698,237\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2374,
+                2803
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.467363984001736,
+                51.924066403954015
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4372,
+                2163
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.482027736793697,
+                51.927109350257446
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5749,
+                5776
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.4925323964152994,
+                51.91069813621348
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3532,
+                8681
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.476421808263581,
+                51.897305522794625
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/b60e21ecd87c96c7",
+          "version": "https://annotations.allmaps.org/maps/b60e21ecd87c96c7@bb1504ab0e7c52a9",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/dd95b5e7bca09363",
+            "version": "https://annotations.allmaps.org/images/dd95b5e7bca09363@6b24b529477b4669",
+            "canvases": []
+          },
+          "scale": 1.969225,
+          "area": 23075222.39
+        }
+      }
+    }
+  ]
+}
