@@ -1,9 +1,9 @@
 ---
 title: District 2
 warpedMaps:
-  - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
-    caption: Van Berckenrode map of Amsterdam
-    provenance: Allard Pierson
+  - url: https://annotations.allmaps.org/images/47eb07fd0c111f31
+    caption: Distirct 2
+    provenance: The Berlage team
     homepage: https://hdl.handle.net/11245/3.39844
     useBearing: true
     options:
