@@ -2,7 +2,7 @@
 title: High-Rise Atlas
 hideBasemap: true
 warpedMaps:
-  - url: assets\annotations\rotterdam-base-map.json
+  - url: assets/annotations/rotterdam-base-map.json
     caption: Rotterdam Highrise Zone (2019)
   - url: https://annotations.allmaps.org/manifests/7737cec074ed3ecf
     caption: Map of Rotterdam
