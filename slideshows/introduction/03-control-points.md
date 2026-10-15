@@ -1,6 +1,5 @@
 ---
 title: District 2
-hideBasemap: true
 warpedMaps:
   - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
     caption: Van Berckenrode map of Amsterdam

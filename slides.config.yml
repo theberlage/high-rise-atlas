@@ -2,15 +2,15 @@ title: High-Rise Atlas
 description: The Berlage ProjectNL
 credits: CREDITS.md
 sources:
-  binnenstadskwartieren:
-    type: geojson
-    url: assets/geojson/binnenstadskwartieren.geojson
   high-rise-vision:
     type: geojson
     url: assets/geojson/high-rise-vision-2019.geojson
-  sunspots:
-    type: geojson
-    url: assets/geojson/sunspots-high-rise-vision-2019.geojson
+
+layers:
+  - layer: high-rise-vision-fill
+    visibility: none
+  - layer: high-rise-vision-line
+    visibility: none
 
 slideshows:
   - id: main
