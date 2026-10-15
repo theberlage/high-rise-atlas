@@ -11,3 +11,13 @@ warpedMaps:
 This narrative map explains how a map is georeferenced. The Van Berckenrode map of Amsterdam from the Allard Pierson collection is used as an example. If you want to try to georeference a map yourself, you can do so in [Allmaps Editor](https://editor.allmaps.org).
 
 In this slide, you can explore the original scan; [IIIF](https://iiif.io/) lets you zoom into the image without downloading the whole map at once.
+
+
+<figure data-image="assets/images/data-sheets/zalmhaven.png">
+
+<figcaption>
+
+Datasheet. You can also use [links](https://theberlage.nl/) here.
+
+</figcaption>
+</figure>
