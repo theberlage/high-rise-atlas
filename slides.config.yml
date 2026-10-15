@@ -1,6 +1,16 @@
 title: High-Rise Atlas
 description: The Berlage ProjectNL
 credits: CREDITS.md
+sources:
+  binnenstadskwartieren:
+    type: geojson
+    url: assets/geojson/binnenstadskwartieren.geojson
+  high-rise-vision:
+    type: geojson
+    url: assets/geojson/high-rise-vision-2019.geojson
+  sunspots:
+    type: geojson
+    url: assets/geojson/sunspots-high-rise-vision-2019.geojson
 
 slideshows:
   - id: main
@@ -8,15 +18,12 @@ slideshows:
     start:
       hideBasemap: true
       warpedMaps:
-          - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
-            caption: Van Berckenrode map of Amsterdam
-            provenance: Allard Pierson
-            homepage: https://hdl.handle.net/11245/3.39844
+          - url: https://annotations.allmaps.org/manifests/7737cec074ed3ecf
+            caption: Map of Rotterdam
+            provenance: Rotterdam Municipal Works
+            homepage: https://annotations.allmaps.org/manifests/7737cec074ed3ecf
             useBearing: true
             useZoom: true
-            options:
-              applyMask: false
-              transformationType: helmert
   - id: district-1
     path: slideshows/district-1
   - id: district-2
@@ -27,4 +34,4 @@ slideshows:
 # This key is for the template demo. When copying or forking this repository,
 # get your own key at https://protomaps.com/api and replace it below.
 protomaps:
-  key: ca7652ec836f269a
+  key: 4e19d5279de00d62
