@@ -2,7 +2,7 @@
 title: District 2
 hideBasemap: true
 warpedMaps:
-  - url: https://annotations.allmaps.org/maps/f0977e21db111378
+  - url: [https://annotations.allmaps.org/maps/f0977e21db111378]
     caption: District 2 Map
     provenance: Englid Pan
     useBearing: true
