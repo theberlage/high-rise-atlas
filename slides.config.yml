@@ -1,6 +1,16 @@
 title: High-Rise Atlas
 description: The Berlage ProjectNL
 credits: CREDITS.md
+sources:
+  binnenstadskwartieren:
+    type: geojson
+    url: assets/geojson/binnenstadskwartieren.geojson
+  high-rise-vision:
+    type: geojson
+    url: assets/geojson/high-rise-vision-2019.geojson
+  sunspots:
+    type: geojson
+    url: assets/geojson/sunspots-high-rise-vision-2019.geojson
 
 slideshows:
   - id: main
@@ -24,4 +34,4 @@ slideshows:
 # This key is for the template demo. When copying or forking this repository,
 # get your own key at https://protomaps.com/api and replace it below.
 protomaps:
-  key: ca7652ec836f269a
+  key: 4e19d5279de00d62
