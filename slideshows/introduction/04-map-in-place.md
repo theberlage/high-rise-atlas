@@ -9,9 +9,6 @@ warpedMaps:
       applyMask: true
       renderTransformedGcps: true
       transformationType: polynomial
-layers:
-  - layer: binnenstadskwartieren
-    visibility: visible
 subslideshows:
   - district-3
 ---
