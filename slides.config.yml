@@ -1,15 +1,22 @@
-title: High-Rise Atlas
+title: A High-Rise Atlas
 description: The Berlage ProjectNL
 credits: CREDITS.md
 sources:
   high-rise-vision:
     type: geojson
     url: assets/geojson/high-rise-vision-2019.geojson
+  sunspots-high-rise-2019:
+    type: geojson
+    url: assets/geojson/sunspots-high-rise-2019.geojson
 
 layers:
   - layer: high-rise-vision-fill
     visibility: none
   - layer: high-rise-vision-line
+    visibility: none
+  - layer: sunspots-high-rise-2019-fill
+    visibility: none
+  - layer: sunspots-high-rise-2019-line
     visibility: none
 
 slideshows:

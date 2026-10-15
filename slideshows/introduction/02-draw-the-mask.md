@@ -24,6 +24,10 @@ layers:
     visibility: visible
   - layer: high-rise-vision-line
     visibility: visible
+  - layer: sunspots-high-rise-2019-fill
+    visibility: none
+  - layer: sunspots-high-rise-2019-line
+    visibility: visible
 subslideshows:
   - district-1
 ---
