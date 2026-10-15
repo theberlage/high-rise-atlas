@@ -1,10 +1,10 @@
 ---
-title: A map of Amsterdam
+title: High-Rise Atlas
 hideBasemap: true
 warpedMaps:
-  - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
-    caption: Van Berckenrode map of Amsterdam
-    provenance: Allard Pierson
+  - url: https://annotations.allmaps.org/manifests/7737cec074ed3ecf
+    caption: Map of Rotterdam
+    provenance: Rotterdam Municipal Works
     homepage: https://hdl.handle.net/11245/3.39844
     useBearing: true
     options:
