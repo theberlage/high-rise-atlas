@@ -1,4 +1,4 @@
-# Allmaps Slides template
+# High-Rise Atlas
 
 Create a map slideshow from one configuration file and Markdown slides.
 This example explains georeferencing using the Van Berckenrode map of
