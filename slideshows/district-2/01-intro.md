@@ -2,7 +2,7 @@
 title: District 2
 hideBasemap: true
 warpedMaps:
-  - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
+  - url: https://annotations.allmaps.org/maps/f0977e21db111378
     caption: Van Berckenrode map of Amsterdam
     provenance: Allard Pierson
     homepage: https://hdl.handle.net/11245/3.39844
@@ -11,6 +11,6 @@ warpedMaps:
       applyMask: false
       transformationType: helmert
 ---
-This narrative map explains how a map is georeferenced. The Van Berckenrode map of Amsterdam from the Allard Pierson collection is used as an example. If you want to try to georeference a map yourself, you can do so in [Allmaps Editor](https://editor.allmaps.org).
+Wijnhaven and Schiedamsedijk are two neighbouring areas in the heart of Rotterdam, located along the Leuvehaven and the Nieuwe Maas, between the city centre, Blaak and the historic Maritime District. The areas sit at the intersection of important urban routes and waterfront spaces, connecting the inner city to the river and the southern parts of Rotterdam. They rose from the ground after being heavily bombed in the 1940s and went through several phases of reconstruction and transformation, gradually becoming a thriving high-rise residential area and a showcase of the Netherlands to the world.  If you want to try to georeference a map yourself, you can do so in [Allmaps Editor](https://editor.allmaps.org).
 
 In this slide, you can explore the original scan; [IIIF](https://iiif.io/) lets you zoom into the image without downloading the whole map at once.
