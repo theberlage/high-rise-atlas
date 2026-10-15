@@ -11,6 +11,9 @@ warpedMaps:
       applyMask: false
       renderMask: true
       transformationType: helmert
+layers:
+  - layer: high-rise-vision
+    visibility: visible
 subslideshows:
   - district-1
 ---

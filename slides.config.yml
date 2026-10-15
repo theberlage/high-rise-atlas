@@ -12,6 +12,14 @@ sources:
     type: geojson
     url: assets/geojson/sunspots-high-rise-vision-2019.geojson
 
+layers:
+  - layer: binnenstadskwartieren
+    visibility: none
+  - layer: high-rise-vision
+    visibility: none
+  - layer: sunspots
+    visibility: none
+
 slideshows:
   - id: main
     path: slideshows/introduction
