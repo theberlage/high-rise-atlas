@@ -12,6 +12,9 @@ warpedMaps:
       renderMask: true
       renderTransformedGcps: true
       transformationType: helmert
+layers:
+  - layer: sunspots
+    visibility: visible
 subslideshows:
   - district-2
 ---
