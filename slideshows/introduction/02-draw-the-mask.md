@@ -1,18 +1,28 @@
 ---
 title: District 1
-hideBasemap: true
+location: 
+  # center: [4.4665974,51.9274653]
+  zoom: 15
 warpedMaps:
-  - url: https://annotations.allmaps.org/maps/e9aa6ec10276bf65@c8c1e1934bc93e0f
-    caption: Van Berckenrode map of Amsterdam
-    provenance: Allard Pierson
+  - url: assets/annotations/rotterdam-base-map.json
+    caption: Rotterdam Highrise Zone (2019)
+    useBounds: true
+    # options:
+      # saturation: 0
+      # colorize: true
+      # colorizeColor: "#39648d"
+      # removeColor: true
+      # removeColorColor: "#FFFFFF"
+  - url: https://annotations.allmaps.org/manifests/7737cec074ed3ecf
+    caption: Map of Rotterdam
+    provenance: Rotterdam Municipal Works
     homepage: https://hdl.handle.net/11245/3.39844
-    useBearing: true
     options:
-      applyMask: false
-      renderMask: true
-      transformationType: helmert
+      saturation: 0
 layers:
-  - layer: high-rise-vision
+  - layer: high-rise-vision-fill
+    visibility: visible
+  - layer: high-rise-vision-line
     visibility: visible
 subslideshows:
   - district-1
