@@ -1,0 +1,132 @@
+{
+  "id": "https://annotations.allmaps.org/images/30974f64e08e395a",
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/edc5ff13d99bfa28",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-15T14:54:26.411Z",
+      "modified": "2026-10-15T14:54:26.411Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://theberlage.github.io/high-rise-atlas/iiif/student-work/district-map-3-kop-van-zuid",
+          "type": "ImageService3",
+          "height": 7017,
+          "width": 7017,
+          "partOf": [
+            {
+              "id": "https://theberlage.github.io/high-rise-atlas/iiif/student-work/canvas/district-map-3-kop-van-zuid",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "district map 3 kop van zuid"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://theberlage.github.io/high-rise-atlas/iiif/student-work/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Student Work"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"7017\" height=\"7017\"><polygon points=\"272,6766 6767,6768 6770,272 268,272\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2016,
+                5179
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.483895895836582,
+                51.90340167916591
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1606,
+                4714
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.482678422529489,
+                51.90429504871008
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3365,
+                3171
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.488226469312082,
+                51.90716321758026
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/edc5ff13d99bfa28",
+          "version": "https://annotations.allmaps.org/maps/edc5ff13d99bfa28@4cfd1c18e7432d8f",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/30974f64e08e395a",
+            "version": "https://annotations.allmaps.org/images/30974f64e08e395a@276636a65c7be858",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/f30eb6b3b7a3745e",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/eaff324c43c9b20b"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 4.735329,
+          "area": 1882313.76
+        }
+      }
+    }
+  ]
+}
